@@ -1,0 +1,21 @@
+{
+  "name": "wow-pawn-subcreation-data",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:format": "prettier --write \"src/**/*.{js,json}\"",
+    "build": "babel-node ./src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "got": "^11.8.1",
+    "jsdom": "^16.4.0"
+  },
+  "license": "ISC",
+  "private": true
+}
