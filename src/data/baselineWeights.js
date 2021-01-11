@@ -3,9 +3,12 @@ export default {
   TANK: {
     Stamina: 1,
     Armor: 0.01,
+    Leech: 0.15,
   },
   HEALER: {
-    Leech: 0.5,
+    Leech: 0.15,
   },
-  DAMAGER: {},
+  DAMAGER: {
+    Leech: 0.15,
+  },
 };
