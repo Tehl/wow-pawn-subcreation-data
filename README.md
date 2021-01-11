@@ -1,1 +1,1 @@
-# wow-pawn-subcreation-data
+# wow-pawn-subcreation-generator
