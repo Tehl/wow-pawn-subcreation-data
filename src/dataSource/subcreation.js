@@ -25,7 +25,7 @@ function parseItemRow(row) {
 
   return itemLinks
     .map((x) => x.href.substring(wowheadItemUrl.length))
-    .filter((x) => x !== "0"); // if 2h weapon, offhand is presented with id 0
+    .filter((x) => x !== "0" && x !== "None"); // if 2h weapon, offhand is presented with id 0
 }
 
 function parseItemGroups(dom, slot) {
